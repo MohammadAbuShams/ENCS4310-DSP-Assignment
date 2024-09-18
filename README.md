@@ -26,7 +26,9 @@ The signal is sampled for 1 second, resulting in 160 samples. We use MATLAB's `p
 
 The moving average filter is defined as:
 
-\[ y[n] = \frac{1}{M} \sum_{k=0}^{M} x[n-k] \]
+\[ 
+y[n] = \frac{1}{M} \sum_{k=0}^{M} x[n-k] 
+\]
 
 We explore different window sizes (M = 0, M = 4, M = 10) and analyze the filter's frequency response using the `freqz()` function.
 
@@ -40,7 +42,9 @@ We compute and plot the frequency spectrum of the input signal \( X(e^{j\omega})
 
 ### e) Find the Optimal Window Size
 
-By experimenting with different window sizes, we determine the optimal window size (M) to extract the first sinusoidal component \( \cos(2\pi \cdot 2 \cdot t) \).
+By experimenting with different window sizes, we determine the optimal window size (M) to extract the first sinusoidal component \[ 
+\cos(2\pi \cdot 2 \cdot t) 
+\]
 
 ## MATLAB Functions Used
 
@@ -52,5 +56,8 @@ By experimenting with different window sizes, we determine the optimal window si
 
 ## Conclusion
 
-The optimal window size (M) to isolate the first sinusoidal signal \( \cos(2\pi \cdot 2 \cdot t) \) was determined through frequency analysis of the filtered output.
+The optimal window size (M) to isolate the first sinusoidal signal \[ 
+\cos(2\pi \cdot 2 \cdot t) 
+\]
+ was determined through frequency analysis of the filtered output.
 
