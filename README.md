@@ -39,18 +39,20 @@ We calculate and plot the output sequence `y[n]` using the `filter()` function f
 
 ### d) Plot Frequency Spectrum
 
-We compute and plot the frequency spectrum of the input signal $$ \( X(e^{j\omega}) \) $$ and the output signal $$ \( Y(e^{j\omega}) \) $$ using the `fft()` function.
+We compute and plot the frequency spectrum of the input signal $$
+X(e^{j\omega})
+$$
+ and the output signal $$
+X(e^{j\omega})
+$$
+ using the `fft()` function.
 
 ### e) Find the Optimal Window Size
 
 By experimenting with different window sizes, we determine the optimal window size (M) to extract the first sinusoidal component 
-
-
 $$
 \cos(2\pi \cdot 2 \cdot t)
 $$
-
-
 
 ## MATLAB Functions Used
 
@@ -62,7 +64,8 @@ $$
 
 ## Conclusion
 
-The optimal window size (M) to isolate the first sinusoidal signal $$
+The optimal window size (M) to isolate the first sinusoidal signal
+$$
 \cos(2\pi \cdot 2 \cdot t)
 $$
 
