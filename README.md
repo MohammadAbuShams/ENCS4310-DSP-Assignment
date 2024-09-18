@@ -6,7 +6,9 @@ This repository contains MATLAB code for Assignment 1 of the Digital Signal Proc
 
 The continuous-time signal is defined as:
 
-\[ x(t) = \cos(2\pi \cdot 2 \cdot t) + 0.5 \cdot \cos(2\pi \cdot 50 \cdot t) + 0.25 \cdot \cos(2\pi \cdot 80 \cdot t) \],
+$$
+x(t) = \cos(2\pi \cdot 2 \cdot t) + 0.5 \cdot \cos(2\pi \cdot 50 \cdot t) + 0.25 \cdot \cos(2\pi \cdot 80 \cdot t)
+$$
 
 - **Sampling frequency (Fs):** 160 samples/sec
 - **Objective:** 
