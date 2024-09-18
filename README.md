@@ -39,12 +39,19 @@ We calculate and plot the output sequence `y[n]` using the `filter()` function f
 
 ### d) Plot Frequency Spectrum
 
-We compute and plot the frequency spectrum of the input signal $$
+We compute and plot the frequency spectrum of the input signal
+
+$$
 X(e^{j\omega})
 $$
- and the output signal $$
+
+
+ and the output signal
+ 
+$$
 X(e^{j\omega})
 $$
+
  using the `fft()` function.
 
 ### e) Find the Optimal Window Size
@@ -70,6 +77,8 @@ $$
 ## Conclusion
 
 The optimal window size (M) to isolate the first sinusoidal signal
+
+
 $$
 \cos(2\pi \cdot 2 \cdot t)
 $$
