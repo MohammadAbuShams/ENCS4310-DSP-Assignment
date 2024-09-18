@@ -44,9 +44,13 @@ We compute and plot the frequency spectrum of the input signal $$ \( X(e^{j\omeg
 ### e) Find the Optimal Window Size
 
 By experimenting with different window sizes, we determine the optimal window size (M) to extract the first sinusoidal component 
+
+
 $$
 \cos(2\pi \cdot 2 \cdot t)
 $$
+
+
 
 ## MATLAB Functions Used
 
